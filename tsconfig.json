@@ -25,7 +25,7 @@
 		"removeComments": false,
 		"preserveConstEnums": true,
 		"sourceMap": false,
-		"target": "ES5", //? Type: string, default: ES3, влияет на опции lib, module.
+		"target": "ES6", //? Type: string, default: ES3, влияет на опции lib, module.
 		/* Cтандарт ECMAScript: ES3, ES5, ES6 (он же ES2015), ES2016, ES2017, ES2018, ES2019, ES2020
 		Для backend приложений/пакетов подойдёт ES6, если рассчитываете только на современные версии Node.js и ES5,
 		если хотите поддержать более старые версии. На данный момент стандарт ES6, с небольшими оговорками, 
