@@ -1,0 +1,12 @@
+include pug/libs/_libs
+
+
+html(lang='ru')
+	include pug/_head
+	body
+		.container
+			h1 Hello from Webpack
+			h2.container__subtitle Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, officia?
+			img.logo(src=require('./images/webpack.webp'))
+			input.userName(type="text" value="Press")
+			input.button(type="button" value="Press")

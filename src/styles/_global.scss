@@ -1,0 +1,18 @@
+$primaryColor: darkcyan;
+$secondaryColor: blue;
+
+html {
+	font-family: generalFont;
+}
+h1 {
+	color: $primaryColor;
+}
+.container {
+	&__subtitle {
+		color: $secondaryColor;
+		display: block;
+		height: 271px;
+		background: url("../images/webpack.webp");
+
+	}
+}
